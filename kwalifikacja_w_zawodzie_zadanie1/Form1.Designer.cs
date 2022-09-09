@@ -35,18 +35,18 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.pesel = new System.Windows.Forms.TextBox();
+            this.miejsceuro = new System.Windows.Forms.TextBox();
+            this.Imie = new System.Windows.Forms.TextBox();
+            this.Nazwisko = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.emai = new System.Windows.Forms.TextBox();
+            this.poczta = new System.Windows.Forms.TextBox();
+            this.nrtel = new System.Windows.Forms.TextBox();
+            this.kodpocztowy = new System.Windows.Forms.TextBox();
+            this.ulicainrdomu = new System.Windows.Forms.TextBox();
+            this.miejscowosc = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -54,18 +54,18 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.combox_termin = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.programista = new System.Windows.Forms.RadioButton();
+            this.informatyk = new System.Windows.Forms.RadioButton();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label12 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.kolejny = new System.Windows.Forms.RadioButton();
+            this.pierwszy = new System.Windows.Forms.RadioButton();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.praktyka = new System.Windows.Forms.CheckBox();
+            this.pisemna = new System.Windows.Forms.CheckBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -83,10 +83,10 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.pesel);
+            this.groupBox1.Controls.Add(this.miejsceuro);
+            this.groupBox1.Controls.Add(this.Imie);
+            this.groupBox1.Controls.Add(this.Nazwisko);
             this.groupBox1.Location = new System.Drawing.Point(48, 34);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(568, 177);
@@ -142,43 +142,43 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.label1.TabIndex = 5;
             this.label1.Text = "Nazwisko:";
             // 
-            // textBox4
+            // pesel
             // 
-            this.textBox4.Location = new System.Drawing.Point(205, 128);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(131, 23);
-            this.textBox4.TabIndex = 3;
+            this.pesel.Location = new System.Drawing.Point(205, 128);
+            this.pesel.Name = "pesel";
+            this.pesel.Size = new System.Drawing.Size(131, 23);
+            this.pesel.TabIndex = 3;
             // 
-            // textBox3
+            // miejsceuro
             // 
-            this.textBox3.Location = new System.Drawing.Point(327, 93);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(235, 23);
-            this.textBox3.TabIndex = 2;
+            this.miejsceuro.Location = new System.Drawing.Point(327, 93);
+            this.miejsceuro.Name = "miejsceuro";
+            this.miejsceuro.Size = new System.Drawing.Size(235, 23);
+            this.miejsceuro.TabIndex = 2;
             // 
-            // textBox2
+            // Imie
             // 
-            this.textBox2.Location = new System.Drawing.Point(205, 59);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(357, 23);
-            this.textBox2.TabIndex = 1;
+            this.Imie.Location = new System.Drawing.Point(205, 59);
+            this.Imie.Name = "Imie";
+            this.Imie.Size = new System.Drawing.Size(357, 23);
+            this.Imie.TabIndex = 1;
             // 
-            // textBox1
+            // Nazwisko
             // 
-            this.textBox1.Location = new System.Drawing.Point(205, 22);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(357, 23);
-            this.textBox1.TabIndex = 0;
+            this.Nazwisko.Location = new System.Drawing.Point(205, 22);
+            this.Nazwisko.Name = "Nazwisko";
+            this.Nazwisko.Size = new System.Drawing.Size(357, 23);
+            this.Nazwisko.TabIndex = 0;
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Controls.Add(this.textBox11);
-            this.groupBox2.Controls.Add(this.textBox10);
-            this.groupBox2.Controls.Add(this.textBox9);
-            this.groupBox2.Controls.Add(this.textBox8);
-            this.groupBox2.Controls.Add(this.textBox7);
-            this.groupBox2.Controls.Add(this.textBox6);
+            this.groupBox2.Controls.Add(this.emai);
+            this.groupBox2.Controls.Add(this.poczta);
+            this.groupBox2.Controls.Add(this.nrtel);
+            this.groupBox2.Controls.Add(this.kodpocztowy);
+            this.groupBox2.Controls.Add(this.ulicainrdomu);
+            this.groupBox2.Controls.Add(this.miejscowosc);
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.label6);
@@ -200,47 +200,47 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.label9.TabIndex = 10;
             this.label9.Text = "email:";
             // 
-            // textBox11
+            // emai
             // 
-            this.textBox11.Location = new System.Drawing.Point(418, 137);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(144, 23);
-            this.textBox11.TabIndex = 9;
+            this.emai.Location = new System.Drawing.Point(418, 137);
+            this.emai.Name = "emai";
+            this.emai.Size = new System.Drawing.Size(144, 23);
+            this.emai.TabIndex = 9;
             // 
-            // textBox10
+            // poczta
             // 
-            this.textBox10.Location = new System.Drawing.Point(327, 103);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(235, 23);
-            this.textBox10.TabIndex = 8;
+            this.poczta.Location = new System.Drawing.Point(327, 103);
+            this.poczta.Name = "poczta";
+            this.poczta.Size = new System.Drawing.Size(235, 23);
+            this.poczta.TabIndex = 8;
             // 
-            // textBox9
+            // nrtel
             // 
-            this.textBox9.Location = new System.Drawing.Point(205, 137);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(131, 23);
-            this.textBox9.TabIndex = 7;
+            this.nrtel.Location = new System.Drawing.Point(205, 137);
+            this.nrtel.Name = "nrtel";
+            this.nrtel.Size = new System.Drawing.Size(131, 23);
+            this.nrtel.TabIndex = 7;
             // 
-            // textBox8
+            // kodpocztowy
             // 
-            this.textBox8.Location = new System.Drawing.Point(205, 102);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 23);
-            this.textBox8.TabIndex = 6;
+            this.kodpocztowy.Location = new System.Drawing.Point(205, 102);
+            this.kodpocztowy.Name = "kodpocztowy";
+            this.kodpocztowy.Size = new System.Drawing.Size(100, 23);
+            this.kodpocztowy.TabIndex = 6;
             // 
-            // textBox7
+            // ulicainrdomu
             // 
-            this.textBox7.Location = new System.Drawing.Point(205, 62);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(357, 23);
-            this.textBox7.TabIndex = 5;
+            this.ulicainrdomu.Location = new System.Drawing.Point(205, 62);
+            this.ulicainrdomu.Name = "ulicainrdomu";
+            this.ulicainrdomu.Size = new System.Drawing.Size(357, 23);
+            this.ulicainrdomu.TabIndex = 5;
             // 
-            // textBox6
+            // miejscowosc
             // 
-            this.textBox6.Location = new System.Drawing.Point(205, 27);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(357, 23);
-            this.textBox6.TabIndex = 4;
+            this.miejscowosc.Location = new System.Drawing.Point(205, 27);
+            this.miejscowosc.Name = "miejscowosc";
+            this.miejscowosc.Size = new System.Drawing.Size(357, 23);
+            this.miejscowosc.TabIndex = 4;
             // 
             // label8
             // 
@@ -310,48 +310,48 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.label11.TabIndex = 4;
             this.label11.Text = "przeprowadzanego w terminie";
             // 
-            // comboBox1
+            // combox_termin
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.combox_termin.FormattingEnabled = true;
+            this.combox_termin.Items.AddRange(new object[] {
             "styczeń",
             "czerwiec"});
-            this.comboBox1.Location = new System.Drawing.Point(391, 435);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 23);
-            this.comboBox1.TabIndex = 5;
-            this.comboBox1.Text = "styczeń";
+            this.combox_termin.Location = new System.Drawing.Point(391, 435);
+            this.combox_termin.Name = "combox_termin";
+            this.combox_termin.Size = new System.Drawing.Size(121, 23);
+            this.combox_termin.TabIndex = 5;
+            this.combox_termin.Text = "styczeń";
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.radioButton2);
-            this.panel1.Controls.Add(this.radioButton1);
+            this.panel1.Controls.Add(this.programista);
+            this.panel1.Controls.Add(this.informatyk);
             this.panel1.Location = new System.Drawing.Point(62, 477);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(562, 25);
             this.panel1.TabIndex = 6;
             // 
-            // radioButton2
+            // programista
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(363, 0);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(89, 19);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Programista";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.programista.AutoSize = true;
+            this.programista.Location = new System.Drawing.Point(363, 0);
+            this.programista.Name = "programista";
+            this.programista.Size = new System.Drawing.Size(89, 19);
+            this.programista.TabIndex = 1;
+            this.programista.TabStop = true;
+            this.programista.Text = "Programista";
+            this.programista.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // informatyk
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(130, 0);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(83, 19);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Informatyk";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.informatyk.AutoSize = true;
+            this.informatyk.Location = new System.Drawing.Point(130, 0);
+            this.informatyk.Name = "informatyk";
+            this.informatyk.Size = new System.Drawing.Size(83, 19);
+            this.informatyk.TabIndex = 0;
+            this.informatyk.TabStop = true;
+            this.informatyk.Text = "Informatyk";
+            this.informatyk.UseVisualStyleBackColor = true;
             // 
             // comboBox2
             // 
@@ -373,63 +373,63 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.radioButton4);
-            this.panel2.Controls.Add(this.radioButton3);
+            this.panel2.Controls.Add(this.kolejny);
+            this.panel2.Controls.Add(this.pierwszy);
             this.panel2.Location = new System.Drawing.Point(62, 558);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(303, 29);
             this.panel2.TabIndex = 9;
             // 
-            // radioButton4
+            // kolejny
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(148, 2);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(149, 19);
-            this.radioButton4.TabIndex = 1;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "po raz kolejny do części";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.kolejny.AutoSize = true;
+            this.kolejny.Location = new System.Drawing.Point(148, 2);
+            this.kolejny.Name = "kolejny";
+            this.kolejny.Size = new System.Drawing.Size(149, 19);
+            this.kolejny.TabIndex = 1;
+            this.kolejny.TabStop = true;
+            this.kolejny.Text = "po raz kolejny do części";
+            this.kolejny.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // pierwszy
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(6, 2);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(105, 19);
-            this.radioButton3.TabIndex = 0;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "po raz pierwszy";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.pierwszy.AutoSize = true;
+            this.pierwszy.Location = new System.Drawing.Point(6, 2);
+            this.pierwszy.Name = "pierwszy";
+            this.pierwszy.Size = new System.Drawing.Size(105, 19);
+            this.pierwszy.TabIndex = 0;
+            this.pierwszy.TabStop = true;
+            this.pierwszy.Text = "po raz pierwszy";
+            this.pierwszy.UseVisualStyleBackColor = true;
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.checkBox2);
-            this.panel3.Controls.Add(this.checkBox1);
+            this.panel3.Controls.Add(this.praktyka);
+            this.panel3.Controls.Add(this.pisemna);
             this.panel3.Location = new System.Drawing.Point(375, 560);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(268, 29);
             this.panel3.TabIndex = 10;
             // 
-            // checkBox2
+            // praktyka
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(137, 3);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(86, 19);
-            this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "praktycznej";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.praktyka.AutoSize = true;
+            this.praktyka.Location = new System.Drawing.Point(137, 3);
+            this.praktyka.Name = "praktyka";
+            this.praktyka.Size = new System.Drawing.Size(86, 19);
+            this.praktyka.TabIndex = 1;
+            this.praktyka.Text = "praktycznej";
+            this.praktyka.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // pisemna
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(19, 5);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(74, 19);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "pisemnej";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.pisemna.AutoSize = true;
+            this.pisemna.Location = new System.Drawing.Point(19, 5);
+            this.pisemna.Name = "pisemna";
+            this.pisemna.Size = new System.Drawing.Size(74, 19);
+            this.pisemna.TabIndex = 0;
+            this.pisemna.Text = "pisemnej";
+            this.pisemna.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
@@ -439,6 +439,7 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.button1.TabIndex = 11;
             this.button1.Text = "Zatwierdź";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -471,7 +472,7 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.Controls.Add(this.label12);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.combox_termin);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.richTextBox1);
@@ -502,17 +503,17 @@ namespace kwalifikacja_w_zawodzie_zadanie1
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox pesel;
+        private System.Windows.Forms.TextBox miejsceuro;
+        private System.Windows.Forms.TextBox Imie;
+        private System.Windows.Forms.TextBox Nazwisko;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox emai;
+        private System.Windows.Forms.TextBox poczta;
+        private System.Windows.Forms.TextBox nrtel;
+        private System.Windows.Forms.TextBox kodpocztowy;
+        private System.Windows.Forms.TextBox ulicainrdomu;
+        private System.Windows.Forms.TextBox miejscowosc;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
@@ -520,18 +521,18 @@ namespace kwalifikacja_w_zawodzie_zadanie1
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox combox_termin;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton programista;
+        private System.Windows.Forms.RadioButton informatyk;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton kolejny;
+        private System.Windows.Forms.RadioButton pierwszy;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox praktyka;
+        private System.Windows.Forms.CheckBox pisemna;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;

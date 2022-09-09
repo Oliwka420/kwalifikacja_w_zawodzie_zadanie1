@@ -15,7 +15,12 @@ namespace kwalifikacja_w_zawodzie_zadanie1
         public Form1()
         {
             InitializeComponent();
-            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
+            combox_termin.DropDownStyle = ComboBoxStyle.DropDownList;
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
 
         }
     }
