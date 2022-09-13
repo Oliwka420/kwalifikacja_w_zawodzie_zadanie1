@@ -45,7 +45,7 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.poczta = new System.Windows.Forms.TextBox();
             this.nrtel = new System.Windows.Forms.TextBox();
             this.kodpocztowy = new System.Windows.Forms.TextBox();
-            this.ulicainrdomu = new System.Windows.Forms.TextBox();
+            this.domek = new System.Windows.Forms.TextBox();
             this.miejscowosc = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -177,7 +177,7 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.groupBox2.Controls.Add(this.poczta);
             this.groupBox2.Controls.Add(this.nrtel);
             this.groupBox2.Controls.Add(this.kodpocztowy);
-            this.groupBox2.Controls.Add(this.ulicainrdomu);
+            this.groupBox2.Controls.Add(this.domek);
             this.groupBox2.Controls.Add(this.miejscowosc);
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.label7);
@@ -228,12 +228,12 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.kodpocztowy.Size = new System.Drawing.Size(100, 23);
             this.kodpocztowy.TabIndex = 6;
             // 
-            // ulicainrdomu
+            // domek
             // 
-            this.ulicainrdomu.Location = new System.Drawing.Point(205, 62);
-            this.ulicainrdomu.Name = "ulicainrdomu";
-            this.ulicainrdomu.Size = new System.Drawing.Size(357, 23);
-            this.ulicainrdomu.TabIndex = 5;
+            this.domek.Location = new System.Drawing.Point(205, 62);
+            this.domek.Name = "domek";
+            this.domek.Size = new System.Drawing.Size(357, 23);
+            this.domek.TabIndex = 5;
             // 
             // miejscowosc
             // 
@@ -341,6 +341,7 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.programista.TabStop = true;
             this.programista.Text = "Programista";
             this.programista.UseVisualStyleBackColor = true;
+            this.programista.CheckedChanged += new System.EventHandler(this.programista_CheckedChanged);
             // 
             // informatyk
             // 
@@ -352,14 +353,20 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.informatyk.TabStop = true;
             this.informatyk.Text = "Informatyk";
             this.informatyk.UseVisualStyleBackColor = true;
+            this.informatyk.CheckedChanged += new System.EventHandler(this.informatyk_CheckedChanged);
             // 
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "wybierz",
+            "kwalifikacje"});
             this.comboBox2.Location = new System.Drawing.Point(62, 519);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 23);
             this.comboBox2.TabIndex = 7;
+            this.comboBox2.Text = "wybierz";
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // label12
             // 
@@ -406,7 +413,7 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             // 
             this.panel3.Controls.Add(this.praktyka);
             this.panel3.Controls.Add(this.pisemna);
-            this.panel3.Location = new System.Drawing.Point(375, 560);
+            this.panel3.Location = new System.Drawing.Point(375, 558);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(268, 29);
             this.panel3.TabIndex = 10;
@@ -414,7 +421,7 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             // praktyka
             // 
             this.praktyka.AutoSize = true;
-            this.praktyka.Location = new System.Drawing.Point(137, 3);
+            this.praktyka.Location = new System.Drawing.Point(149, 5);
             this.praktyka.Name = "praktyka";
             this.praktyka.Size = new System.Drawing.Size(86, 19);
             this.praktyka.TabIndex = 1;
@@ -512,7 +519,7 @@ namespace kwalifikacja_w_zawodzie_zadanie1
         private System.Windows.Forms.TextBox poczta;
         private System.Windows.Forms.TextBox nrtel;
         private System.Windows.Forms.TextBox kodpocztowy;
-        private System.Windows.Forms.TextBox ulicainrdomu;
+        private System.Windows.Forms.TextBox domek;
         private System.Windows.Forms.TextBox miejscowosc;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
