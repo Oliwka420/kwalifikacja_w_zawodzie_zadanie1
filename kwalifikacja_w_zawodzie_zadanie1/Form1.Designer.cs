@@ -169,6 +169,7 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.Nazwisko.Name = "Nazwisko";
             this.Nazwisko.Size = new System.Drawing.Size(357, 23);
             this.Nazwisko.TabIndex = 0;
+            this.Nazwisko.TextChanged += new System.EventHandler(this.Nazwisko_TextChanged);
             // 
             // groupBox2
             // 
@@ -372,7 +373,9 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label12.ForeColor = System.Drawing.Color.Coral;
             this.label12.Location = new System.Drawing.Point(203, 519);
+            this.label12.MaximumSize = new System.Drawing.Size(490, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(161, 20);
             this.label12.TabIndex = 8;
@@ -397,6 +400,7 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.kolejny.TabStop = true;
             this.kolejny.Text = "po raz kolejny do części";
             this.kolejny.UseVisualStyleBackColor = true;
+            this.kolejny.CheckedChanged += new System.EventHandler(this.kolejny_CheckedChanged);
             // 
             // pierwszy
             // 
@@ -408,6 +412,7 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.pierwszy.TabStop = true;
             this.pierwszy.Text = "po raz pierwszy";
             this.pierwszy.UseVisualStyleBackColor = true;
+            this.pierwszy.CheckedChanged += new System.EventHandler(this.pierwszy_CheckedChanged);
             // 
             // panel3
             // 
@@ -454,8 +459,9 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(141, 23);
             this.button2.TabIndex = 12;
-            this.button2.Text = "Wypisz";
+            this.button2.Text = "Wyczyść";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
