@@ -148,6 +148,7 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.pesel.Name = "pesel";
             this.pesel.Size = new System.Drawing.Size(131, 23);
             this.pesel.TabIndex = 3;
+            this.pesel.Enter += new System.EventHandler(this.Nazwisko_Enter);
             // 
             // miejsceuro
             // 
@@ -155,6 +156,7 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.miejsceuro.Name = "miejsceuro";
             this.miejsceuro.Size = new System.Drawing.Size(235, 23);
             this.miejsceuro.TabIndex = 2;
+            this.miejsceuro.Enter += new System.EventHandler(this.Nazwisko_Enter);
             // 
             // Imie
             // 
@@ -162,6 +164,7 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.Imie.Name = "Imie";
             this.Imie.Size = new System.Drawing.Size(357, 23);
             this.Imie.TabIndex = 1;
+            this.Imie.Enter += new System.EventHandler(this.Nazwisko_Enter);
             // 
             // Nazwisko
             // 
@@ -170,6 +173,7 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.Nazwisko.Size = new System.Drawing.Size(357, 23);
             this.Nazwisko.TabIndex = 0;
             this.Nazwisko.TextChanged += new System.EventHandler(this.Nazwisko_TextChanged);
+            this.Nazwisko.Enter += new System.EventHandler(this.Nazwisko_Enter);
             // 
             // groupBox2
             // 
@@ -207,6 +211,7 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.emai.Name = "emai";
             this.emai.Size = new System.Drawing.Size(144, 23);
             this.emai.TabIndex = 9;
+            this.emai.Enter += new System.EventHandler(this.Nazwisko_Enter);
             // 
             // poczta
             // 
@@ -214,6 +219,7 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.poczta.Name = "poczta";
             this.poczta.Size = new System.Drawing.Size(235, 23);
             this.poczta.TabIndex = 8;
+            this.poczta.Enter += new System.EventHandler(this.Nazwisko_Enter);
             // 
             // nrtel
             // 
@@ -221,6 +227,7 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.nrtel.Name = "nrtel";
             this.nrtel.Size = new System.Drawing.Size(131, 23);
             this.nrtel.TabIndex = 7;
+            this.nrtel.Enter += new System.EventHandler(this.Nazwisko_Enter);
             // 
             // kodpocztowy
             // 
@@ -228,6 +235,7 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.kodpocztowy.Name = "kodpocztowy";
             this.kodpocztowy.Size = new System.Drawing.Size(100, 23);
             this.kodpocztowy.TabIndex = 6;
+            this.kodpocztowy.Enter += new System.EventHandler(this.Nazwisko_Enter);
             // 
             // domek
             // 
@@ -235,6 +243,7 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.domek.Name = "domek";
             this.domek.Size = new System.Drawing.Size(357, 23);
             this.domek.TabIndex = 5;
+            this.domek.Enter += new System.EventHandler(this.Nazwisko_Enter);
             // 
             // miejscowosc
             // 
@@ -242,6 +251,7 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.miejscowosc.Name = "miejscowosc";
             this.miejscowosc.Size = new System.Drawing.Size(357, 23);
             this.miejscowosc.TabIndex = 4;
+            this.miejscowosc.Enter += new System.EventHandler(this.Nazwisko_Enter);
             // 
             // label8
             // 
@@ -471,6 +481,7 @@ namespace kwalifikacja_w_zawodzie_zadanie1
             this.button3.TabIndex = 13;
             this.button3.Text = "Zapisz";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form1
             // 
